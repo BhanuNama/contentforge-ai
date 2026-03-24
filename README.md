@@ -355,7 +355,7 @@ MIT — feel free to fork, learn from, and build on this.
 ---
 
 <div align="center">
-  Built with ⚡ by <a href="https://github.com/yourusername">Hruday N</a>
+  Built with ⚡ by <a href="https://github.com/BhanuNama">Bhanu Nama</a>
   <br/>
   <sub>Next.js · Groq · Supabase · Clerk · Stripe · Framer Motion</sub>
 </div>
