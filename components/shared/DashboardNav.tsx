@@ -31,9 +31,7 @@ export function DashboardNav() {
         {/* Logo */}
         <div className="px-6 py-6 border-b border-slate-100">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-[#3b82f6] flex items-center justify-center shadow-sm">
-              <Zap className="w-4.5 h-4.5 text-white" />
-            </div>
+            <img src="/logo.svg" alt="ContentForge AI" width={36} height={36} className="rounded-xl" />
             <div>
               <span className="font-extrabold text-[15px] text-[#0d1117] tracking-tight">ContentForge</span>
               <span className="block text-[10px] text-slate-400 font-medium -mt-0.5">AI Platform</span>
@@ -94,9 +92,7 @@ export function DashboardNav() {
       {/* Mobile Top Bar */}
       <div className="md:hidden fixed top-0 inset-x-0 z-40 flex items-center justify-between px-4 h-14 bg-white border-b border-slate-100">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-lg bg-[#3b82f6] flex items-center justify-center">
-            <Zap className="w-3.5 h-3.5 text-white" />
-          </div>
+          <img src="/logo.svg" alt="ContentForge AI" width={28} height={28} className="rounded-lg" />
           <span className="font-bold text-[#0d1117]">ContentForge</span>
         </Link>
         <div className="flex items-center gap-2">

@@ -17,12 +17,19 @@ export const metadata: Metadata = {
   description:
     "AI-native content repurposing SaaS. Paste one piece of content, get 10+ platform-specific formats in 45 seconds. Powered by a 5-agent AI pipeline.",
   keywords: ["content repurposing", "AI content", "social media", "content marketing"],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/logo.svg",
+  },
   openGraph: {
     title: "ContentForge AI",
     description: "One Input. Ten Outputs. Zero Repetition.",
     type: "website",
   },
 };
+
 
 export default function RootLayout({
   children,
